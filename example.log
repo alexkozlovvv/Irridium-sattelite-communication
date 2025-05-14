@@ -1,0 +1,452 @@
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 17:53:06,087]  Command send to modem ATI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 17:53:06,096]  Line got from modem - b'ATI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 17:53:06,100]  Line got from modem - b'2400\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 17:53:06,100]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 17:53:06,102]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 17:53:06,103]  Final response from modem got - b'ATI\r\r\n'b'2400\r\n'b'\r\n'b'OK\r\n'
+send_with_schedule.py[LINE:69]# INFO     [2023-05-13 17:53:06,103]  *** USED ELEVATION DEGREE IS 40° ***
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:00:07,449]  Sending to IRIDIUM 107
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:00:07,449]  Send attempt: 1, message: 2023-05-13 16:42:28 Temperature: 24.30
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:00:07,450]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990007.4502406
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:07,450]  Command send to modem AT+SBDWT=2023-05-13 16:42:28 Temperature: 24.30
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:07,490]  Line got from modem - b'AT+SBDWT=2023-05-13 16:42:28 Temperature: 24.30\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:07,491]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:07,492]  Final response from modem got - b'AT+SBDWT=2023-05-13 16:42:28 Temperature: 24.30\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:07,493]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:08,505]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:09,507]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:09,959]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:09,971]  Line got from modem - b'+SBDI: 1, 959, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:09,972]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:09,975]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:09,975]  Final response from modem got - b'AT+SBDI\r'b''b'\r\n'b'+SBDI: 1, 959, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:00:09,975]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:00:09,975]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:00:09,976]  SBD Message sent. Original message size - 38. Time - 1683990009.9761825. Time delta - 2.525941848754883
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:00:36,691]  Sending to IRIDIUM 107
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:00:36,691]  Send attempt: 1, message: 2023-05-13 16:47:28 Temperature: 18.20
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:00:36,692]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990036.6920896
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:36,692]  Command send to modem AT+SBDWT=2023-05-13 16:47:28 Temperature: 18.20
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:36,732]  Line got from modem - b'AT+SBDWT=2023-05-13 16:47:28 Temperature: 18.20\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:36,733]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:36,734]  Final response from modem got - b'AT+SBDWT=2023-05-13 16:47:28 Temperature: 18.20\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:36,735]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:37,748]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:38,749]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:39,751]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:40,753]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:41,755]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:42,757]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:43,759]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:44,761]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:44,790]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:44,803]  Line got from modem - b'+SBDI: 1, 960, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:44,803]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:44,806]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:44,806]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b''b''b'\r\n'b'+SBDI: 1, 960, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:00:44,807]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:00:44,807]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:00:44,808]  SBD Message sent. Original message size - 38. Time - 1683990044.8083425. Time delta - 8.116252899169922
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:00:49,299]  Sending to IRIDIUM 107
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:00:49,300]  Send attempt: 1, message: 2023-05-13 16:52:28 Temperature: 21.80
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:00:49,300]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990049.3003721
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:49,300]  Command send to modem AT+SBDWT=2023-05-13 16:52:28 Temperature: 21.80
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:49,340]  Line got from modem - b'AT+SBDWT=2023-05-13 16:52:28 Temperature: 21.80\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:49,341]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:49,342]  Final response from modem got - b'AT+SBDWT=2023-05-13 16:52:28 Temperature: 21.80\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:00:49,343]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:50,355]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:51,358]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:52,360]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:53,362]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:54,364]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:55,366]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:56,368]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:57,371]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:58,290]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:58,303]  Line got from modem - b'+SBDI: 1, 961, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:58,304]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:00:58,306]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:00:58,306]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b''b''b'\r\n'b'+SBDI: 1, 961, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:00:58,307]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:00:58,307]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:00:58,308]  SBD Message sent. Original message size - 38. Time - 1683990058.3083417. Time delta - 9.007969617843628
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:09:18,126]  Sending to IRIDIUM 132
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:09:18,127]  Send attempt: 1, message: 2023-05-13 16:57:28 Temperature: 25.60
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:09:18,127]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990558.127771
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:18,128]  Command send to modem AT+SBDWT=2023-05-13 16:57:28 Temperature: 25.60
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:18,167]  Line got from modem - b'AT+SBDWT=2023-05-13 16:57:28 Temperature: 25.60\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:18,169]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:18,169]  Final response from modem got - b'AT+SBDWT=2023-05-13 16:57:28 Temperature: 25.60\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:18,170]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:19,183]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:20,185]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:21,187]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:22,189]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:23,191]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:24,193]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:25,195]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:26,198]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:26,815]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:26,827]  Line got from modem - b'+SBDI: 1, 962, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:26,828]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:26,830]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:26,831]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b''b''b'\r\n'b'+SBDI: 1, 962, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:09:26,832]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:09:26,832]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:09:26,833]  SBD Message sent. Original message size - 38. Time - 1683990566.8329878. Time delta - 8.705216884613037
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:09:28,866]  Sending to IRIDIUM 132
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:09:28,867]  Send attempt: 1, message: 2023-05-13 17:02:28 Temperature: 23.00
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:09:28,867]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990568.8674529
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:28,867]  Command send to modem AT+SBDWT=2023-05-13 17:02:28 Temperature: 23.00
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,907]  Line got from modem - b'AT+SBDWT=2023-05-13 17:02:28 Temperature: 23.00\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,908]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:28,909]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:02:28 Temperature: 23.00\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:28,909]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,926]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,938]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,939]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,942]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:28,943]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:28,944]  SBDI error sending data with code 2. Attempt - 1
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:28,945]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,965]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,978]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,979]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:28,981]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:28,982]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:28,983]  SBDI error sending data with code 2. Attempt - 2
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:28,984]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,005]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,018]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,019]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,021]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:29,022]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:29,023]  SBDI error sending data with code 2. Attempt - 3
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:29,025]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,045]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,058]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,059]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,061]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:29,062]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:29,063]  SBDI error sending data with code 2. Attempt - 4
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:29,065]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,085]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,098]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,100]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,102]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:29,103]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:29,104]  SBDI error sending data with code 2. Attempt - 5
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:29,105]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,125]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,138]  Line got from modem - b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,139]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:29,141]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:29,142]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 963, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:09:29,143]  SBDI error sending data with code 2. Attempt - 6
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:29,144]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:30,157]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:31,159]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:32,160]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:33,162]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:34,164]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:35,166]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:35,725]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:35,737]  Line got from modem - b'+SBDI: 1, 963, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:35,738]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:35,740]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:35,741]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b'\r\n'b'+SBDI: 1, 963, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:09:35,741]  SBDI Data sent. Attempt - 7.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:09:35,741]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:09:35,742]  SBD Message sent. Original message size - 38. Time - 1683990575.7421858. Time delta - 6.874732971191406
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:09:38,252]  Sending to IRIDIUM 132
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:09:38,253]  Send attempt: 1, message: 2023-05-13 17:07:28 Temperature: 23.30
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:09:38,253]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990578.2533872
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:38,253]  Command send to modem AT+SBDWT=2023-05-13 17:07:28 Temperature: 23.30
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:38,293]  Line got from modem - b'AT+SBDWT=2023-05-13 17:07:28 Temperature: 23.30\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:38,294]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:38,295]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:07:28 Temperature: 23.30\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:38,295]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:39,308]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:40,310]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:41,312]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:42,313]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:43,315]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:44,317]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:44,815]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:44,828]  Line got from modem - b'+SBDI: 1, 964, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:44,829]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:44,831]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:44,831]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b'\r\n'b'+SBDI: 1, 964, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:09:44,832]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:09:44,832]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:09:44,833]  SBD Message sent. Original message size - 38. Time - 1683990584.8333168. Time delta - 6.57992959022522
+
+
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:09:45,376]  Sending to IRIDIUM 169
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:09:45,377]  Send attempt: 1, message: 2023-05-13 17:12:28 Temperature: 19.70
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:09:45,384]  SBD Message prepared for transfer. Original message size - 38. Time - 1683990585.384338
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:45,385]  Command send to modem AT+SBDWT=2023-05-13 17:12:28 Temperature: 19.70
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:45,424]  Line got from modem - b'AT+SBDWT=2023-05-13 17:12:28 Temperature: 19.70\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:45,425]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:09:45,426]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:12:28 Temperature: 19.70\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:09:45,426]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:46,439]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:47,441]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:48,442]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:49,444]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:50,446]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:51,448]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:52,450]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:53,452]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:54,454]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:55,457]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:56,459]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:57,461]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:58,463]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:09:59,465]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:00,467]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:01,470]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:02,472]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:03,474]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:04,476]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:05,478]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:06,481]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:07,483]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:08,485]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:09,287]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:09,299]  Line got from modem - b'+SBDI: 1, 965, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:09,300]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:10:09,302]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:10:09,303]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b''b'\r\n'b'+SBDI: 1, 965, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:10:09,303]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:10:09,304]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:10:09,304]  SBD Message sent. Original message size - 38. Time - 1683990609.3047853. Time delta - 23.92044734954834
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:18:27,471]  Sending to IRIDIUM 129
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:18:27,471]  Send attempt: 1, message: 2023-05-13 17:17:28 Temperature: 18.30
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:18:27,472]  SBD Message prepared for transfer. Original message size - 38. Time - 1683991107.4719954
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:27,472]  Command send to modem AT+SBDWT=2023-05-13 17:17:28 Temperature: 18.30
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:27,512]  Line got from modem - b'AT+SBDWT=2023-05-13 17:17:28 Temperature: 18.30\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:27,513]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:27,514]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:17:28 Temperature: 18.30\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:27,514]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:28,527]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:29,529]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:30,530]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:31,532]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:32,534]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:33,537]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:33,809]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:33,821]  Line got from modem - b'+SBDI: 1, 966, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:33,822]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:33,824]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:33,825]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b'\r\n'b'+SBDI: 1, 966, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:18:33,825]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:18:33,826]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:18:33,826]  SBD Message sent. Original message size - 38. Time - 1683991113.8262517. Time delta - 6.3542563915252686
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:18:35,846]  Sending to IRIDIUM 129
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:18:35,847]  Send attempt: 1, message: 2023-05-13 17:22:28 Temperature: 21.30
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:18:35,847]  SBD Message prepared for transfer. Original message size - 38. Time - 1683991115.8474903
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:35,847]  Command send to modem AT+SBDWT=2023-05-13 17:22:28 Temperature: 21.30
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:35,887]  Line got from modem - b'AT+SBDWT=2023-05-13 17:22:28 Temperature: 21.30\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:35,888]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:35,888]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:22:28 Temperature: 21.30\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:35,889]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:36,902]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:37,903]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:38,905]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:39,907]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:39,929]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:39,942]  Line got from modem - b'+SBDI: 1, 967, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:39,943]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:39,945]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:39,945]  Final response from modem got - b'AT+SBDI\r'b''b''b''b'\r\n'b'+SBDI: 1, 967, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:18:39,946]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:18:39,947]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:18:39,947]  SBD Message sent. Original message size - 38. Time - 1683991119.947485. Time delta - 4.099994659423828
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:18:41,995]  Sending to IRIDIUM 129
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:18:41,995]  Send attempt: 1, message: 2023-05-13 17:27:28 Temperature: 23.40
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:18:41,996]  SBD Message prepared for transfer. Original message size - 38. Time - 1683991121.9959507
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:41,996]  Command send to modem AT+SBDWT=2023-05-13 17:27:28 Temperature: 23.40
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:42,036]  Line got from modem - b'AT+SBDWT=2023-05-13 17:27:28 Temperature: 23.40\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:42,037]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:42,037]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:27:28 Temperature: 23.40\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:42,038]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:43,050]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:44,052]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:45,054]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:46,056]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:47,058]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:48,060]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:49,062]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:50,064]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:51,066]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:52,068]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,071]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,638]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,650]  Line got from modem - b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,651]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,653]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:53,654]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b''b''b''b''b''b'\r\n'b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:18:53,655]  SBDI error sending data with code 2. Attempt - 1
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:53,655]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,678]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,691]  Line got from modem - b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,692]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,694]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:53,694]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:18:53,695]  SBDI error sending data with code 2. Attempt - 2
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:53,696]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,718]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,731]  Line got from modem - b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,732]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,734]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:53,734]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:18:53,735]  SBDI error sending data with code 2. Attempt - 3
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:53,736]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,758]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,771]  Line got from modem - b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,772]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,774]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:53,775]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:18:53,775]  SBDI error sending data with code 2. Attempt - 4
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:53,776]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,798]  Line got from modem - b'AT+SBDI\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,811]  Line got from modem - b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,811]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:53,814]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:53,814]  Final response from modem got - b'AT+SBDI\r\r\n'b'+SBDI: 2, 968, 2, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:88]# WARNING  [2023-05-13 18:18:53,815]  SBDI error sending data with code 2. Attempt - 5
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:18:53,815]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:54,828]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:55,829]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:56,831]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:57,833]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:58,289]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:58,302]  Line got from modem - b'+SBDI: 1, 968, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:58,302]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:18:58,305]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:18:58,305]  Final response from modem got - b'AT+SBDI\r'b''b''b''b'\r\n'b'+SBDI: 1, 968, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:18:58,306]  SBDI Data sent. Attempt - 6.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:18:58,306]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:18:58,306]  SBD Message sent. Original message size - 38. Time - 1683991138.3066676. Time delta - 16.3107168674469
+
+
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:27:31,655]  Sending to IRIDIUM 100
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:27:31,656]  Send attempt: 1, message: 2023-05-13 17:32:28 Temperature: 18.10
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:27:31,656]  SBD Message prepared for transfer. Original message size - 38. Time - 1683991651.6562817
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:27:31,656]  Command send to modem AT+SBDWT=2023-05-13 17:32:28 Temperature: 18.10
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:31,696]  Line got from modem - b'AT+SBDWT=2023-05-13 17:32:28 Temperature: 18.10\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:31,697]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:27:31,697]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:32:28 Temperature: 18.10\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:27:31,698]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:32,711]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:33,713]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:34,715]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:35,257]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:35,269]  Line got from modem - b'+SBDI: 1, 969, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:35,270]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:35,272]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:27:35,273]  Final response from modem got - b'AT+SBDI\r'b''b''b'\r\n'b'+SBDI: 1, 969, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:27:35,273]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:27:35,273]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:27:35,274]  SBD Message sent. Original message size - 38. Time - 1683991655.274222. Time delta - 3.6179401874542236
+
+
+
+
+
+send_with_schedule.py[LINE:75]# INFO     [2023-05-13 18:27:39,778]  Sending to IRIDIUM 100
+send_with_schedule.py[LINE:82]# INFO     [2023-05-13 18:27:39,778]  Send attempt: 1, message: 2023-05-13 17:37:28 Temperature: 23.00
+send_with_schedule.py[LINE:33]# INFO     [2023-05-13 18:27:39,779]  SBD Message prepared for transfer. Original message size - 38. Time - 1683991659.779218
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:27:39,779]  Command send to modem AT+SBDWT=2023-05-13 17:37:28 Temperature: 23.00
+
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:39,819]  Line got from modem - b'AT+SBDWT=2023-05-13 17:37:28 Temperature: 23.00\r\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:39,820]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:27:39,821]  Final response from modem got - b'AT+SBDWT=2023-05-13 17:37:28 Temperature: 23.00\r\r\n'b'OK\r\n'
+IridiumModem.py[LINE:24]# DEBUG    [2023-05-13 18:27:39,821]  Command send to modem AT+SBDI
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:40,834]  Line got from modem - b'AT+SBDI\r'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:41,836]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:42,837]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:43,839]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:44,841]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:45,844]  Line got from modem - b''
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:45,959]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:45,971]  Line got from modem - b'+SBDI: 1, 970, 0, 0, 0, 0\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:45,972]  Line got from modem - b'\r\n'
+IridiumModem.py[LINE:30]# DEBUG    [2023-05-13 18:27:45,974]  Line got from modem - b'OK\r\n'
+IridiumModem.py[LINE:37]# DEBUG    [2023-05-13 18:27:45,975]  Final response from modem got - b'AT+SBDI\r'b''b''b''b''b''b'\r\n'b'+SBDI: 1, 970, 0, 0, 0, 0\r\n'b'\r\n'b'OK\r\n'
+IridiumModem.py[LINE:85]# INFO     [2023-05-13 18:27:45,976]  SBDI Data sent. Attempt - 1.
+IridiumModem.py[LINE:95]# DEBUG    [2023-05-13 18:27:45,976]  Exiting from SendSBDMessage with code 1
+send_with_schedule.py[LINE:38]# INFO     [2023-05-13 18:27:45,977]  SBD Message sent. Original message size - 38. Time - 1683991665.977048. Time delta - 6.197829961776733

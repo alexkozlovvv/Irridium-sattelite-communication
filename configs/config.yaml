@@ -1,0 +1,8 @@
+longitude: 37.410161
+latitude: 55.803218
+altitude: 150
+tolerance: 0.001
+elevation_deg: 60
+hours_predict: 1
+modem_port: "/dev/ttyUSB0"
+modem_baudrate: 19200

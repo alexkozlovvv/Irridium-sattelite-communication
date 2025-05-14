@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+    iridium:
+        image: rust:latest
+        ports:
+            - "10800:10800"
+        volumes:
+            - ./:/var/iridium
+            - ./logs:/var/log
+        command:
+          - /var/iridium/run.sh
